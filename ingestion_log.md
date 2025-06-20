@@ -6,3 +6,9 @@
 * **Delimiter:**  '\t'  
 * **Encoding:**   UTF-8 (no � chars in first 50 rows)  
 * **Notes:** Header row present, 158 columns.
+
+## 2025‑06‑15 – Glue job dry‑run
+* **Job:** ff_flatten_nutrients_dev  ✔
+* **Role:** foodfacts‑dev‑glue
+* **Script URI:** s3://nutriflow‑pipeline/scripts/flatten_nutrients.py
+* **Result:** Succeeded, log message seen.
