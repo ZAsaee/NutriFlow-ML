@@ -12,3 +12,9 @@
 * **Role:** foodfacts‑dev‑glue
 * **Script URI:** s3://nutriflow‑pipeline/scripts/flatten_nutrients.py
 * **Result:** Succeeded, log message seen.
+
+## 2025‑06‑15 – Crawler + Athena sanity
+* **Database:** foodfacts_phase_a  ✔
+* **Table:** ff-partial-phasea
+* COUNT(*) = 30_000 rows
+* **Label counts:** a = 5703, b = 2311 , c = 3133 , d = 4848 , e = 9417, unknown = 4443 , not-applicable = 145
